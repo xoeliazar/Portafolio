@@ -3,75 +3,122 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Desafio/assets/css/styles.css" />
     <title>Document</title>
-    <style>
-      body {
-        max-width: 50vw;
-        margin: 0 auto;
-      }
-    </style>
   </head>
   <body>
-    <h1>Curriculum Vitae</h1>
-    <img
-      src="./Desafio/assets/img/mifoto.jpeg"
-      alt="Persona incomoda"
-      width="130px"
-      height="183px"
-    />
-    <h2>Sergio Salcedo</h2>
-    <h3>Resumen</h3>
-    <p>
-      Sergio Salcedo, Nacido en Santiago (Chile) y actual desempleado. Tengo 15
-      años de experiencia en atención a clientes y manejo de caja y he trabajado
-      en Casa Ideas S.A donde me he destacado por sobrevivir a la atención a
-      público (XD) . Soy una persona altamente motivada y enfocada en alcanzar
-      resultados. Poseo habilidades en (estoy tratando de averiguarlo aún. Si a
-      mis 37 años no lo sé jejeje) y tengo un amplio conocimiento en cosas que
-      no me ayudan a ganar dinero. Además, soy capaz de trabajar en equipo y
-      adaptarme rápidamente a nuevos entornos laborales. Mi objetivo es obtener
-      nuevas experiencias y conocimientos. Para así desarrollar mejores
-      herramientas que sumen más habilidades para así aportar en el entorno
-      laboral.
-    </p>
-    <h3>Datos Personales</h3>
-    <ul>
-      <li>Nombre: Sergio Felipe Eliazar Salcedo López</li>
-      <li>Lugar de Nacimiento: Providencia (Santiago, Chile)</li>
-      <li>Fecha de Nacimiento: 05 de Febrero de 1986</li>
-    </ul>
-    <h3>Formación</h3>
-    <p>
-      comencé mi carrera en la vida desde el momento de mi concepción, Fui
-      traído a este mundo contra mi voluntad y comencé la lucha en este remoto
-      lugar del mundo llamado Chile (si mala suerte. América Latina). A los 5
-      años entre a kínder en el colegio Christian Garden School. Colegio que me
-      albergo durante toda mi infancia y adolescencia. Ya que estuve ahí hasta
-      4° medio. Estudie técnico en administración de empresas, un equivalente a
-      6 semestres en la San Marino. Después comencé mi vida laboral que en
-      tiempo es un promedio de 16 años. Ahora con ganas de aprender y poder
-      optar a mejores ofertas laborales al finalizar el bootcamp en desafío
-      Latam.
-    </p>
-    <h3>Premios Y Reconociemientos</h3>
-    <p>
-      En la vida estudiantil recibí 3 reconocimientos. premios en los que se
-      encuentran ni mas ni menos que el 1° lugar de mi curso y 2° de mi
-      generación en la escuela Christian Garden School. Si Jeremy me gano (TT).
-      Mi vida no volvió a ser la misma desde ese segundo lugar. No obstante, he
-      recibido un sinfín de condecoraciones de las cuales no existe registro ni
-      pruebas materiales ni fotográficas. Pero si. Las gane!.
-    </p>
-    <ol>
-      <li>Ganar la carrera por la fecundación del ovulo.</li>
-      <li>Nacer.</li>
-      <li>Salir de 4° en la misma escuela que comencé mis estudios.</li>
-      <li>Segundo Lugar de la generación en la escuela media</li>
-      <li>6 semestres en la San Marino con Patricia Hernández.</li>
-    </ol>
-    <p>Fuente: <a href="./portafolio.html">Portafolio</a></p>
-    <a href="https://www.instagram.com/xoeliazar" target="_blank"
-      >Sergio Salcedo</a
-    >
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container col-md-12 col-sm-12">
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <h1>Curriculum Vitae</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="card profile p-0 mt-4 border-0">
+            <img
+              src="./Desafio/assets/img/mifoto.jpeg"
+              class="card-img-contain"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <h2 class="d-flex justify-content-center">Sergio Salcedo</h2>
+        <h3 class="d-flex justify-content-center mt-1">Resumen</h3>
+        <p class="d-flex justify-content-center">
+          Sergio Salcedo, Nacido en Santiago (Chile) y actual desempleado. Tengo
+          15 años de experiencia en atención a clientes y manejo de caja y he
+          trabajado en Casa Ideas S.A donde me he destacado por sobrevivir a la
+          atención a público (XD) . Soy una persona altamente motivada y
+          enfocada en alcanzar resultados. Poseo habilidades en (estoy tratando
+          de averiguarlo aún. Si a mis 37 años no lo sé jejeje) y tengo un
+          amplio conocimiento en cosas que no me ayudan a ganar dinero. Además,
+          soy capaz de trabajar en equipo y adaptarme rápidamente a nuevos
+          entornos laborales. Mi objetivo es obtener nuevas experiencias y
+          conocimientos. Para así desarrollar mejores herramientas que sumen más
+          habilidades para así aportar en el entorno laboral.
+        </p>
+        <h3 class="d-flex justify-content-center">Datos Personales</h3>
+        <div class="d-flex justify-content-center">
+          <ul>
+            <li>Nombre: Sergio Felipe Eliazar Salcedo López</li>
+            <li>Lugar de Nacimiento: Providencia (Santiago, Chile)</li>
+            <li>Fecha de Nacimiento: 05 de Febrero de 1986</li>
+          </ul>
+        </div>
+        <section>
+          <h3 class="d-flex justify-content-center">Experiencias</h3>
+          <p class="d-flex justify-content-center">
+            comencé mi carrera en la vida desde el momento de mi concepción, Fui
+            traído a este mundo contra mi voluntad y comencé la lucha en este
+            remoto lugar del mundo llamado Chile (si mala suerte. América
+            Latina). Después comencé mi vida laboral que en tiempo es un
+            promedio de 16 años en servicio al cliente en retail y call center.
+            Ahora con ganas de aprender y poder optar a mejores ofertas
+            laborales al finalizar el bootcamp en desafío Latam.
+          </p>
+        </section>
+        <h3 class="d-flex justify-content-center">
+          Premios Y Reconociemientos
+        </h3>
+        <p class="d-flex justify-content-center">
+          En la vida estudiantil recibí 3 reconocimientos. premios en los que se
+          encuentran ni mas ni menos que el 1° lugar de mi curso y 2° de mi
+          generación en la escuela Christian Garden School. Si Jeremy me gano
+          (TT). Mi vida no volvió a ser la misma desde ese segundo lugar. No
+          obstante, he recibido un sinfín de condecoraciones de las cuales no
+          existe registro ni pruebas materiales ni fotográficas. Pero si. Las
+          gane!.
+        </p>
+        <div class="d-flex justify-content-center">
+          <ol>
+            <li>Ganar la carrera por la fecundación del ovulo.</li>
+            <li>Nacer.</li>
+            <li>Salir de 4° en la misma escuela que comencé mis estudios.</li>
+            <li>Segundo Lugar de la generación en la escuela media</li>
+            <li>6 semestres en la San Marino con Patricia Hernández.</li>
+          </ol>
+        </div>
+        <section>
+          <h3 class="d-flex justify-content-center">Educacion</h3>
+          <h4 class="d-flex justify-content-center">Primaria y Secundaria</h4>
+          <div class="d-flex justify-content-center mt-3">
+            <ul>
+              <li>
+                Christian Garden School. Santiago, Chile | Feb 2002 - Dic 2006
+                Tecnico Nivel medio en administración de empresas.
+              </li>
+              <li>Christian Garden School. Santiago, Chile</li>
+            </ul>
+          </div>
+        </section>
+
+        <p>Fuente: <a href="./portafolio.html">Portafolio</a></p>
+        <a href="https://www.instagram.com/xoeliazar" target="_blank"
+          >Sergio Salcedo</a
+        >
+      </div>
+    </div>
   </body>
 </html>
