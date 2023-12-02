@@ -2,6 +2,17 @@
   width: 180px;
   height: 300px;
 }
+
 nav {
   background-color: antiquewhite;
+}
+
+footer {
+  background-color: antiquewhite;
+}
+.fontSize1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #212529;
 }
